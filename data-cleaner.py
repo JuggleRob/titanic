@@ -11,11 +11,8 @@ df['Survived'] = df['Survived'].astype('bool')
 # Remove two rows with null value at Embarked
 
 # Create Title from Name column and remove Name column
-df.insert(4, 'Title', '')
-df.insert(4, 'TitleFirstname', '')
-df['TitleFirstname'] = df['Name'].str.split(',', expand = True)[1]
-df['Title'] = df['TitleFirstname'].str.split(' ', expand = True)[1]
-df = df.drop(columns = ['TitleFirstname', 'Name'])
+df['Title'] = df['Name'].str.split(',', expand = True)[1]
+df['Title'] = df['Title'].str.split(' ', expand = True)[1]
 df['Title'] = df['Title'].replace(['Lady.', 'Countess.','Capt.', 'Col.','Dr.', 'Major.', 'Rev.', 'Sir.', 'Don.', 'Jonkheer.'], 'Rare.')
 df['Title'] = df['Title'].replace('Mlle.', 'Miss.')
 df['Title'] = df['Title'].replace('Ms.', 'Miss.')
@@ -28,14 +25,10 @@ df['Embarked'] = df['Embarked'].astype('category')
 df['Sex'] = df['Sex'].astype('category')
 df['Title'] = df['Title'].astype('category')
 
-# Remove ticket column
-df.drop(columns = ['Ticket'])
-
 # Impute age based on Pclass
 def impute_age(age_pclass):
     age = age_pclass[0]
     pclass = age_pclass[1]
-
     if pd.isnull(age):
         if pclass == 1:
             return 38 # Average age of people in first class
@@ -46,4 +39,42 @@ def impute_age(age_pclass):
     else:
         return age
 
+# Data analysis
 df['Age'] = df[['Age', 'Pclass']].apply(impute_age, axis=1)
+
+def age_groups(x):
+    if x < 10:
+        return '0-10 years'
+    elif x < 20:
+        return '10-20 years'
+    elif x < 30:
+        return '20-30 years'
+    elif x < 40:
+        return '30-40 years'
+    elif x < 50:
+        return '40-50 years'
+    elif x < 60:
+        return '50-60 years'
+    else:
+        return '>60 years'
+
+def fare_groups(x):
+    if x < 10:
+        return '0-10 pounds'
+    elif x < 20:
+        return '10-20 pounds'
+    elif x < 30:
+        return '20-30 pounds'
+    elif x < 40:
+        return '30-40 pounds'
+    elif x < 50:
+        return '40-50 pounds'
+    elif x < 100:
+        return '50-100 pounds'
+    else:
+        return '>100 pounds'
+
+df['AgeGroup'] = df['Age'].apply(age_groups)
+df['FareGroup'] = df['Fare'].apply(fare_groups)
+
+df.to_csv('titanic-training-dataset-cleaned.csv')
