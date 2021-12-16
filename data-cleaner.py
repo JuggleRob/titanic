@@ -13,7 +13,7 @@ df['Survived'] = df['Survived'].astype('bool')
 # Create Title from Name column and remove Name column
 df['Title'] = df['Name'].str.split(',', expand = True)[1]
 df['Title'] = df['Title'].str.split(' ', expand = True)[1]
-df['Title'] = df['Title'].replace(['Lady.', 'Countess.','Capt.', 'Col.','Dr.', 'Major.', 'Rev.', 'Sir.', 'Don.', 'Jonkheer.'], 'Rare.')
+df['Title'] = df['Title'].replace(['Lady.', 'Countess.','Capt.', 'Col.','Dr.', 'Major.', 'Rev.', 'Sir.', 'Don.', 'Jonkheer.'], 'Other.')
 df['Title'] = df['Title'].replace('Mlle.', 'Miss.')
 df['Title'] = df['Title'].replace('Ms.', 'Miss.')
 df['Title'] = df['Title'].replace('Mme.', 'Mrs.')

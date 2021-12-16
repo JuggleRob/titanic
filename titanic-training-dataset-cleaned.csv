@@ -29,7 +29,7 @@
 27,28,False,1,"Fortune, Mr. Charles Alexander",male,19.0,3,2,19950,263.0,C23 C25 C27,S,Mr.,10-20 years,>100 pounds
 28,29,True,3,"O'Dwyer, Miss. Ellen ""Nellie""",female,25.0,0,0,330959,7.8792,,Q,Miss.,20-30 years,0-10 pounds
 29,30,False,3,"Todoroff, Mr. Lalio",male,25.0,0,0,349216,7.8958,,S,Mr.,20-30 years,0-10 pounds
-30,31,False,1,"Uruchurtu, Don. Manuel E",male,40.0,0,0,PC 17601,27.7208,,C,Rare.,40-50 years,20-30 pounds
+30,31,False,1,"Uruchurtu, Don. Manuel E",male,40.0,0,0,PC 17601,27.7208,,C,Other.,40-50 years,20-30 pounds
 31,32,True,1,"Spencer, Mrs. William Augustus (Marie Eugenie)",female,38.0,1,0,PC 17569,146.5208,B78,C,Mrs.,30-40 years,>100 pounds
 32,33,True,3,"Glynn, Miss. Mary Agatha",female,25.0,0,0,335677,7.75,,Q,Miss.,20-30 years,0-10 pounds
 33,34,False,2,"Wheadon, Mr. Edward H",male,66.0,0,0,C.A. 24579,10.5,,S,Mr.,>60 years,10-20 pounds
@@ -148,8 +148,8 @@
 146,147,True,3,"Andersson, Mr. August Edvard (""Wennerstrom"")",male,27.0,0,0,350043,7.7958,,S,Mr.,20-30 years,0-10 pounds
 147,148,False,3,"Ford, Miss. Robina Maggie ""Ruby""",female,9.0,2,2,W./C. 6608,34.375,,S,Miss.,0-10 years,30-40 pounds
 148,149,False,2,"Navratil, Mr. Michel (""Louis M Hoffman"")",male,36.5,0,2,230080,26.0,F2,S,Mr.,30-40 years,20-30 pounds
-149,150,False,2,"Byles, Rev. Thomas Roussel Davids",male,42.0,0,0,244310,13.0,,S,Rare.,40-50 years,10-20 pounds
-150,151,False,2,"Bateman, Rev. Robert James",male,51.0,0,0,S.O.P. 1166,12.525,,S,Rare.,50-60 years,10-20 pounds
+149,150,False,2,"Byles, Rev. Thomas Roussel Davids",male,42.0,0,0,244310,13.0,,S,Other.,40-50 years,10-20 pounds
+150,151,False,2,"Bateman, Rev. Robert James",male,51.0,0,0,S.O.P. 1166,12.525,,S,Other.,50-60 years,10-20 pounds
 151,152,True,1,"Pears, Mrs. Thomas (Edith Wearne)",female,22.0,1,0,113776,66.6,C2,S,Mrs.,20-30 years,50-100 pounds
 152,153,False,3,"Meo, Mr. Alfonzo",male,55.5,0,0,A.5. 11206,8.05,,S,Mr.,50-60 years,0-10 pounds
 153,154,False,3,"van Billiard, Mr. Austin Blyler",male,40.5,0,2,A/5. 851,14.5,,S,Mr.,40-50 years,10-20 pounds
@@ -244,11 +244,11 @@
 242,243,False,2,"Coleridge, Mr. Reginald Charles",male,29.0,0,0,W./C. 14263,10.5,,S,Mr.,20-30 years,10-20 pounds
 243,244,False,3,"Maenpaa, Mr. Matti Alexanteri",male,22.0,0,0,STON/O 2. 3101275,7.125,,S,Mr.,20-30 years,0-10 pounds
 244,245,False,3,"Attalah, Mr. Sleiman",male,30.0,0,0,2694,7.225,,C,Mr.,30-40 years,0-10 pounds
-245,246,False,1,"Minahan, Dr. William Edward",male,44.0,2,0,19928,90.0,C78,Q,Rare.,40-50 years,50-100 pounds
+245,246,False,1,"Minahan, Dr. William Edward",male,44.0,2,0,19928,90.0,C78,Q,Other.,40-50 years,50-100 pounds
 246,247,False,3,"Lindahl, Miss. Agda Thorilda Viktoria",female,25.0,0,0,347071,7.775,,S,Miss.,20-30 years,0-10 pounds
 247,248,True,2,"Hamalainen, Mrs. William (Anna)",female,24.0,0,2,250649,14.5,,S,Mrs.,20-30 years,10-20 pounds
 248,249,True,1,"Beckwith, Mr. Richard Leonard",male,37.0,1,1,11751,52.5542,D35,S,Mr.,30-40 years,50-100 pounds
-249,250,False,2,"Carter, Rev. Ernest Courtenay",male,54.0,1,0,244252,26.0,,S,Rare.,50-60 years,20-30 pounds
+249,250,False,2,"Carter, Rev. Ernest Courtenay",male,54.0,1,0,244252,26.0,,S,Other.,50-60 years,20-30 pounds
 250,251,False,3,"Reed, Mr. James George",male,25.0,0,0,362316,7.25,,S,Mr.,20-30 years,0-10 pounds
 251,252,False,3,"Strom, Mrs. Wilhelm (Elna Matilda Persson)",female,29.0,1,1,347054,10.4625,G6,S,Mrs.,20-30 years,10-20 pounds
 252,253,False,1,"Stead, Mr. William Thomas",male,62.0,0,0,113514,26.55,C87,S,Mr.,>60 years,20-30 pounds
@@ -316,7 +316,7 @@
 314,315,False,2,"Hart, Mr. Benjamin",male,43.0,1,1,F.C.C. 13529,26.25,,S,Mr.,40-50 years,20-30 pounds
 315,316,True,3,"Nilsson, Miss. Helmina Josefina",female,26.0,0,0,347470,7.8542,,S,Miss.,20-30 years,0-10 pounds
 316,317,True,2,"Kantor, Mrs. Sinai (Miriam Sternin)",female,24.0,1,0,244367,26.0,,S,Mrs.,20-30 years,20-30 pounds
-317,318,False,2,"Moraweck, Dr. Ernest",male,54.0,0,0,29011,14.0,,S,Rare.,50-60 years,10-20 pounds
+317,318,False,2,"Moraweck, Dr. Ernest",male,54.0,0,0,29011,14.0,,S,Other.,50-60 years,10-20 pounds
 318,319,True,1,"Wick, Miss. Mary Natalie",female,31.0,0,2,36928,164.8667,C7,S,Miss.,30-40 years,>100 pounds
 319,320,True,1,"Spedden, Mrs. Frederic Oakley (Margaretta Corning Stone)",female,40.0,1,1,16966,134.5,E34,C,Mrs.,40-50 years,>100 pounds
 320,321,False,3,"Dennis, Mr. Samuel",male,22.0,0,0,A/5 21172,7.25,,S,Mr.,20-30 years,0-10 pounds
@@ -397,7 +397,7 @@
 395,396,False,3,"Johansson, Mr. Erik",male,22.0,0,0,350052,7.7958,,S,Mr.,20-30 years,0-10 pounds
 396,397,False,3,"Olsson, Miss. Elina",female,31.0,0,0,350407,7.8542,,S,Miss.,30-40 years,0-10 pounds
 397,398,False,2,"McKane, Mr. Peter David",male,46.0,0,0,28403,26.0,,S,Mr.,40-50 years,20-30 pounds
-398,399,False,2,"Pain, Dr. Alfred",male,23.0,0,0,244278,10.5,,S,Rare.,20-30 years,10-20 pounds
+398,399,False,2,"Pain, Dr. Alfred",male,23.0,0,0,244278,10.5,,S,Other.,20-30 years,10-20 pounds
 399,400,True,2,"Trout, Mrs. William H (Jessie L)",female,28.0,0,0,240929,12.65,,S,Mrs.,20-30 years,10-20 pounds
 400,401,True,3,"Niskanen, Mr. Juha",male,39.0,0,0,STON/O 2. 3101289,7.925,,S,Mr.,30-40 years,0-10 pounds
 401,402,False,3,"Adams, Mr. John",male,26.0,0,0,341826,8.05,,S,Mr.,20-30 years,0-10 pounds
@@ -448,7 +448,7 @@
 446,447,True,2,"Mellinger, Miss. Madeleine Violet",female,13.0,0,1,250644,19.5,,S,Miss.,10-20 years,10-20 pounds
 447,448,True,1,"Seward, Mr. Frederic Kimber",male,34.0,0,0,113794,26.55,,S,Mr.,30-40 years,20-30 pounds
 448,449,True,3,"Baclini, Miss. Marie Catherine",female,5.0,2,1,2666,19.2583,,C,Miss.,0-10 years,10-20 pounds
-449,450,True,1,"Peuchen, Major. Arthur Godfrey",male,52.0,0,0,113786,30.5,C104,S,Rare.,50-60 years,30-40 pounds
+449,450,True,1,"Peuchen, Major. Arthur Godfrey",male,52.0,0,0,113786,30.5,C104,S,Other.,50-60 years,30-40 pounds
 450,451,False,2,"West, Mr. Edwy Arthur",male,36.0,1,2,C.A. 34651,27.75,,S,Mr.,30-40 years,20-30 pounds
 451,452,False,3,"Hagland, Mr. Ingvald Olai Olsen",male,25.0,1,0,65303,19.9667,,S,Mr.,20-30 years,10-20 pounds
 452,453,False,1,"Foreman, Mr. Benjamin Laventall",male,30.0,0,0,113051,27.75,C111,C,Mr.,30-40 years,20-30 pounds
@@ -535,7 +535,7 @@
 533,534,True,3,"Peter, Mrs. Catherine (Catherine Rizk)",female,25.0,0,2,2668,22.3583,,C,Mrs.,20-30 years,20-30 pounds
 534,535,False,3,"Cacic, Miss. Marija",female,30.0,0,0,315084,8.6625,,S,Miss.,30-40 years,0-10 pounds
 535,536,True,2,"Hart, Miss. Eva Miriam",female,7.0,0,2,F.C.C. 13529,26.25,,S,Miss.,0-10 years,20-30 pounds
-536,537,False,1,"Butt, Major. Archibald Willingham",male,45.0,0,0,113050,26.55,B38,S,Rare.,40-50 years,20-30 pounds
+536,537,False,1,"Butt, Major. Archibald Willingham",male,45.0,0,0,113050,26.55,B38,S,Other.,40-50 years,20-30 pounds
 537,538,True,1,"LeRoy, Miss. Bertha",female,30.0,0,0,PC 17761,106.425,,C,Miss.,30-40 years,>100 pounds
 538,539,False,3,"Risien, Mr. Samuel Beard",male,25.0,0,0,364498,14.5,,S,Mr.,20-30 years,10-20 pounds
 539,540,True,1,"Frolicher, Miss. Hedwig Margaritha",female,22.0,0,2,13568,49.5,B39,C,Miss.,20-30 years,40-50 pounds
@@ -555,7 +555,7 @@
 553,554,True,3,"Leeni, Mr. Fahim (""Philip Zenni"")",male,22.0,0,0,2620,7.225,,C,Mr.,20-30 years,0-10 pounds
 554,555,True,3,"Ohman, Miss. Velin",female,22.0,0,0,347085,7.775,,S,Miss.,20-30 years,0-10 pounds
 555,556,False,1,"Wright, Mr. George",male,62.0,0,0,113807,26.55,,S,Mr.,>60 years,20-30 pounds
-556,557,True,1,"Duff Gordon, Lady. (Lucille Christiana Sutherland) (""Mrs Morgan"")",female,48.0,1,0,11755,39.6,A16,C,Rare.,40-50 years,30-40 pounds
+556,557,True,1,"Duff Gordon, Lady. (Lucille Christiana Sutherland) (""Mrs Morgan"")",female,48.0,1,0,11755,39.6,A16,C,Other.,40-50 years,30-40 pounds
 557,558,False,1,"Robbins, Mr. Victor",male,38.0,0,0,PC 17757,227.525,,C,Mr.,30-40 years,>100 pounds
 558,559,True,1,"Taussig, Mrs. Emil (Tillie Mandelbaum)",female,39.0,1,1,110413,79.65,E67,S,Mrs.,30-40 years,50-100 pounds
 559,560,True,3,"de Messemaeker, Mrs. Guillaume Joseph (Emma)",female,36.0,1,0,345572,17.4,,S,Mrs.,30-40 years,10-20 pounds
@@ -598,7 +598,7 @@
 596,597,True,2,"Leitch, Miss. Jessie Wills",female,30.0,0,0,248727,33.0,,S,Miss.,30-40 years,30-40 pounds
 597,598,False,3,"Johnson, Mr. Alfred",male,49.0,0,0,LINE,0.0,,S,Mr.,40-50 years,0-10 pounds
 598,599,False,3,"Boulos, Mr. Hanna",male,25.0,0,0,2664,7.225,,C,Mr.,20-30 years,0-10 pounds
-599,600,True,1,"Duff Gordon, Sir. Cosmo Edmund (""Mr Morgan"")",male,49.0,1,0,PC 17485,56.9292,A20,C,Rare.,40-50 years,50-100 pounds
+599,600,True,1,"Duff Gordon, Sir. Cosmo Edmund (""Mr Morgan"")",male,49.0,1,0,PC 17485,56.9292,A20,C,Other.,40-50 years,50-100 pounds
 600,601,True,2,"Jacobsohn, Mrs. Sidney Samuel (Amy Frances Christy)",female,24.0,2,1,243847,27.0,,S,Mrs.,20-30 years,20-30 pounds
 601,602,False,3,"Slabenoff, Mr. Petco",male,25.0,0,0,349214,7.8958,,S,Mr.,20-30 years,0-10 pounds
 602,603,False,1,"Harrington, Mr. Charles H",male,38.0,0,0,113796,42.4,,S,Mr.,30-40 years,40-50 pounds
@@ -625,13 +625,13 @@
 623,624,False,3,"Hansen, Mr. Henry Damsgaard",male,21.0,0,0,350029,7.8542,,S,Mr.,20-30 years,0-10 pounds
 624,625,False,3,"Bowen, Mr. David John ""Dai""",male,21.0,0,0,54636,16.1,,S,Mr.,20-30 years,10-20 pounds
 625,626,False,1,"Sutton, Mr. Frederick",male,61.0,0,0,36963,32.3208,D50,S,Mr.,>60 years,30-40 pounds
-626,627,False,2,"Kirkland, Rev. Charles Leonard",male,57.0,0,0,219533,12.35,,Q,Rare.,50-60 years,10-20 pounds
+626,627,False,2,"Kirkland, Rev. Charles Leonard",male,57.0,0,0,219533,12.35,,Q,Other.,50-60 years,10-20 pounds
 627,628,True,1,"Longley, Miss. Gretchen Fiske",female,21.0,0,0,13502,77.9583,D9,S,Miss.,20-30 years,50-100 pounds
 628,629,False,3,"Bostandyeff, Mr. Guentcho",male,26.0,0,0,349224,7.8958,,S,Mr.,20-30 years,0-10 pounds
 629,630,False,3,"O'Connell, Mr. Patrick D",male,25.0,0,0,334912,7.7333,,Q,Mr.,20-30 years,0-10 pounds
 630,631,True,1,"Barkworth, Mr. Algernon Henry Wilson",male,80.0,0,0,27042,30.0,A23,S,Mr.,>60 years,30-40 pounds
 631,632,False,3,"Lundahl, Mr. Johan Svensson",male,51.0,0,0,347743,7.0542,,S,Mr.,50-60 years,0-10 pounds
-632,633,True,1,"Stahelin-Maeglin, Dr. Max",male,32.0,0,0,13214,30.5,B50,C,Rare.,30-40 years,30-40 pounds
+632,633,True,1,"Stahelin-Maeglin, Dr. Max",male,32.0,0,0,13214,30.5,B50,C,Other.,30-40 years,30-40 pounds
 633,634,False,1,"Parr, Mr. William Henry Marsh",male,38.0,0,0,112052,0.0,,S,Mr.,30-40 years,0-10 pounds
 634,635,False,3,"Skoog, Miss. Mabel",female,9.0,3,2,347088,27.9,,S,Miss.,0-10 years,20-30 pounds
 635,636,True,2,"Davis, Miss. Mary",female,28.0,0,0,237668,13.0,,S,Miss.,20-30 years,10-20 pounds
@@ -646,7 +646,7 @@
 644,645,True,3,"Baclini, Miss. Eugenie",female,0.75,2,1,2666,19.2583,,C,Miss.,0-10 years,10-20 pounds
 645,646,True,1,"Harper, Mr. Henry Sleeper",male,48.0,1,0,PC 17572,76.7292,D33,C,Mr.,40-50 years,50-100 pounds
 646,647,False,3,"Cor, Mr. Liudevit",male,19.0,0,0,349231,7.8958,,S,Mr.,10-20 years,0-10 pounds
-647,648,True,1,"Simonius-Blumer, Col. Oberst Alfons",male,56.0,0,0,13213,35.5,A26,C,Rare.,50-60 years,30-40 pounds
+647,648,True,1,"Simonius-Blumer, Col. Oberst Alfons",male,56.0,0,0,13213,35.5,A26,C,Other.,50-60 years,30-40 pounds
 648,649,False,3,"Willey, Mr. Edward",male,25.0,0,0,S.O./P.P. 751,7.55,,S,Mr.,20-30 years,0-10 pounds
 649,650,True,3,"Stanley, Miss. Amy Zillah Elsie",female,23.0,0,0,CA. 2314,7.55,,S,Miss.,20-30 years,0-10 pounds
 650,651,False,3,"Mitkoff, Mr. Mito",male,25.0,0,0,349221,7.8958,,S,Mr.,20-30 years,0-10 pounds
@@ -659,7 +659,7 @@
 657,658,False,3,"Bourke, Mrs. John (Catherine)",female,32.0,1,1,364849,15.5,,Q,Mrs.,30-40 years,10-20 pounds
 658,659,False,2,"Eitemiller, Mr. George Floyd",male,23.0,0,0,29751,13.0,,S,Mr.,20-30 years,10-20 pounds
 659,660,False,1,"Newell, Mr. Arthur Webster",male,58.0,0,2,35273,113.275,D48,C,Mr.,50-60 years,>100 pounds
-660,661,True,1,"Frauenthal, Dr. Henry William",male,50.0,2,0,PC 17611,133.65,,S,Rare.,50-60 years,>100 pounds
+660,661,True,1,"Frauenthal, Dr. Henry William",male,50.0,2,0,PC 17611,133.65,,S,Other.,50-60 years,>100 pounds
 661,662,False,3,"Badt, Mr. Mohamed",male,40.0,0,0,2623,7.225,,C,Mr.,40-50 years,0-10 pounds
 662,663,False,1,"Colley, Mr. Edward Pomeroy",male,47.0,0,0,5727,25.5875,E58,S,Mr.,40-50 years,20-30 pounds
 663,664,False,3,"Coleff, Mr. Peju",male,36.0,0,0,349210,7.4958,,S,Mr.,30-40 years,0-10 pounds
@@ -693,7 +693,7 @@
 691,692,True,3,"Karun, Miss. Manca",female,4.0,0,1,349256,13.4167,,C,Miss.,0-10 years,10-20 pounds
 692,693,True,3,"Lam, Mr. Ali",male,25.0,0,0,1601,56.4958,,S,Mr.,20-30 years,50-100 pounds
 693,694,False,3,"Saad, Mr. Khalil",male,25.0,0,0,2672,7.225,,C,Mr.,20-30 years,0-10 pounds
-694,695,False,1,"Weir, Col. John",male,60.0,0,0,113800,26.55,,S,Rare.,>60 years,20-30 pounds
+694,695,False,1,"Weir, Col. John",male,60.0,0,0,113800,26.55,,S,Other.,>60 years,20-30 pounds
 695,696,False,2,"Chapman, Mr. Charles Henry",male,52.0,0,0,248731,13.5,,S,Mr.,50-60 years,10-20 pounds
 696,697,False,3,"Kelly, Mr. James",male,44.0,0,0,363592,8.05,,S,Mr.,40-50 years,0-10 pounds
 697,698,True,3,"Mullens, Miss. Katherine ""Katie""",female,25.0,0,0,35852,7.7333,,Q,Miss.,20-30 years,0-10 pounds
@@ -744,7 +744,7 @@
 742,743,True,1,"Ryerson, Miss. Susan Parker ""Suzette""",female,21.0,2,2,PC 17608,262.375,B57 B59 B63 B66,C,Miss.,20-30 years,>100 pounds
 743,744,False,3,"McNamee, Mr. Neal",male,24.0,1,0,376566,16.1,,S,Mr.,20-30 years,10-20 pounds
 744,745,True,3,"Stranden, Mr. Juho",male,31.0,0,0,STON/O 2. 3101288,7.925,,S,Mr.,30-40 years,0-10 pounds
-745,746,False,1,"Crosby, Capt. Edward Gifford",male,70.0,1,1,WE/P 5735,71.0,B22,S,Rare.,>60 years,50-100 pounds
+745,746,False,1,"Crosby, Capt. Edward Gifford",male,70.0,1,1,WE/P 5735,71.0,B22,S,Other.,>60 years,50-100 pounds
 746,747,False,3,"Abbott, Mr. Rossmore Edward",male,16.0,1,1,C.A. 2673,20.25,,S,Mr.,10-20 years,20-30 pounds
 747,748,True,2,"Sinkkonen, Miss. Anna",female,30.0,0,0,250648,13.0,,S,Miss.,30-40 years,10-20 pounds
 748,749,False,1,"Marvin, Mr. Daniel Warner",male,19.0,1,0,113773,53.1,D30,S,Mr.,10-20 years,50-100 pounds
@@ -758,14 +758,14 @@
 756,757,False,3,"Carlsson, Mr. August Sigfrid",male,28.0,0,0,350042,7.7958,,S,Mr.,20-30 years,0-10 pounds
 757,758,False,2,"Bailey, Mr. Percy Andrew",male,18.0,0,0,29108,11.5,,S,Mr.,10-20 years,10-20 pounds
 758,759,False,3,"Theobald, Mr. Thomas Leonard",male,34.0,0,0,363294,8.05,,S,Mr.,30-40 years,0-10 pounds
-759,760,True,1,"Rothes, Countess. (Lucy Noel Martha Dyer-Edwards)",female,33.0,0,0,110152,86.5,B77,S,Rare.,30-40 years,50-100 pounds
+759,760,True,1,"Rothes, Countess. (Lucy Noel Martha Dyer-Edwards)",female,33.0,0,0,110152,86.5,B77,S,Other.,30-40 years,50-100 pounds
 760,761,False,3,"Garfirth, Mr. John",male,25.0,0,0,358585,14.5,,S,Mr.,20-30 years,10-20 pounds
 761,762,False,3,"Nirva, Mr. Iisakki Antino Aijo",male,41.0,0,0,SOTON/O2 3101272,7.125,,S,Mr.,40-50 years,0-10 pounds
 762,763,True,3,"Barah, Mr. Hanna Assi",male,20.0,0,0,2663,7.2292,,C,Mr.,20-30 years,0-10 pounds
 763,764,True,1,"Carter, Mrs. William Ernest (Lucile Polk)",female,36.0,1,2,113760,120.0,B96 B98,S,Mrs.,30-40 years,>100 pounds
 764,765,False,3,"Eklund, Mr. Hans Linus",male,16.0,0,0,347074,7.775,,S,Mr.,10-20 years,0-10 pounds
 765,766,True,1,"Hogeboom, Mrs. John C (Anna Andrews)",female,51.0,1,0,13502,77.9583,D11,S,Mrs.,50-60 years,50-100 pounds
-766,767,False,1,"Brewe, Dr. Arthur Jackson",male,38.0,0,0,112379,39.6,,C,Rare.,30-40 years,30-40 pounds
+766,767,False,1,"Brewe, Dr. Arthur Jackson",male,38.0,0,0,112379,39.6,,C,Other.,30-40 years,30-40 pounds
 767,768,False,3,"Mangan, Miss. Mary",female,30.5,0,0,364850,7.75,,Q,Miss.,30-40 years,0-10 pounds
 768,769,False,3,"Moran, Mr. Daniel J",male,25.0,1,0,371110,24.15,,Q,Mr.,20-30 years,20-30 pounds
 769,770,False,3,"Gronnestad, Mr. Daniel Danielsen",male,32.0,0,0,8471,8.3625,,S,Mr.,30-40 years,0-10 pounds
@@ -795,7 +795,7 @@
 793,794,False,1,"Hoyt, Mr. William Fisher",male,38.0,0,0,PC 17600,30.6958,,C,Mr.,30-40 years,30-40 pounds
 794,795,False,3,"Dantcheff, Mr. Ristiu",male,25.0,0,0,349203,7.8958,,S,Mr.,20-30 years,0-10 pounds
 795,796,False,2,"Otter, Mr. Richard",male,39.0,0,0,28213,13.0,,S,Mr.,30-40 years,10-20 pounds
-796,797,True,1,"Leader, Dr. Alice (Farnham)",female,49.0,0,0,17465,25.9292,D17,S,Rare.,40-50 years,20-30 pounds
+796,797,True,1,"Leader, Dr. Alice (Farnham)",female,49.0,0,0,17465,25.9292,D17,S,Other.,40-50 years,20-30 pounds
 797,798,True,3,"Osman, Mrs. Mara",female,31.0,0,0,349244,8.6833,,S,Mrs.,30-40 years,0-10 pounds
 798,799,False,3,"Ibrahim Shawah, Mr. Yousseff",male,30.0,0,0,2685,7.2292,,C,Mr.,30-40 years,0-10 pounds
 799,800,False,3,"Van Impe, Mrs. Jean Baptiste (Rosalie Paula Govaert)",female,30.0,1,1,345773,24.15,,S,Mrs.,30-40 years,20-30 pounds
@@ -821,7 +821,7 @@
 819,820,False,3,"Skoog, Master. Karl Thorsten",male,10.0,3,2,347088,27.9,,S,Master.,10-20 years,20-30 pounds
 820,821,True,1,"Hays, Mrs. Charles Melville (Clara Jennings Gregg)",female,52.0,1,1,12749,93.5,B69,S,Mrs.,50-60 years,50-100 pounds
 821,822,True,3,"Lulic, Mr. Nikola",male,27.0,0,0,315098,8.6625,,S,Mr.,20-30 years,0-10 pounds
-822,823,False,1,"Reuchlin, Jonkheer. John George",male,38.0,0,0,19972,0.0,,S,Rare.,30-40 years,0-10 pounds
+822,823,False,1,"Reuchlin, Jonkheer. John George",male,38.0,0,0,19972,0.0,,S,Other.,30-40 years,0-10 pounds
 823,824,True,3,"Moor, Mrs. (Beila)",female,27.0,0,1,392096,12.475,E121,S,Mrs.,20-30 years,10-20 pounds
 824,825,False,3,"Panula, Master. Urho Abraham",male,2.0,4,1,3101295,39.6875,,S,Master.,0-10 years,30-40 pounds
 825,826,False,3,"Flynn, Mr. John",male,25.0,0,0,368323,6.95,,Q,Mr.,20-30 years,0-10 pounds
@@ -847,7 +847,7 @@
 845,846,False,3,"Abbing, Mr. Anthony",male,42.0,0,0,C.A. 5547,7.55,,S,Mr.,40-50 years,0-10 pounds
 846,847,False,3,"Sage, Mr. Douglas Bullen",male,25.0,8,2,CA. 2343,69.55,,S,Mr.,20-30 years,50-100 pounds
 847,848,False,3,"Markoff, Mr. Marin",male,35.0,0,0,349213,7.8958,,C,Mr.,30-40 years,0-10 pounds
-848,849,False,2,"Harper, Rev. John",male,28.0,0,1,248727,33.0,,S,Rare.,20-30 years,30-40 pounds
+848,849,False,2,"Harper, Rev. John",male,28.0,0,1,248727,33.0,,S,Other.,20-30 years,30-40 pounds
 849,850,True,1,"Goldenberg, Mrs. Samuel L (Edwiga Grabowska)",female,38.0,1,0,17453,89.1042,C92,C,Mrs.,30-40 years,50-100 pounds
 850,851,False,3,"Andersson, Master. Sigvard Harald Elias",male,4.0,4,2,347082,31.275,,S,Master.,0-10 years,30-40 pounds
 851,852,False,3,"Svensson, Mr. Johan",male,74.0,0,0,347060,7.775,,S,Mr.,>60 years,0-10 pounds
@@ -885,7 +885,7 @@
 883,884,False,2,"Banfield, Mr. Frederick James",male,28.0,0,0,C.A./SOTON 34068,10.5,,S,Mr.,20-30 years,10-20 pounds
 884,885,False,3,"Sutehall, Mr. Henry Jr",male,25.0,0,0,SOTON/OQ 392076,7.05,,S,Mr.,20-30 years,0-10 pounds
 885,886,False,3,"Rice, Mrs. William (Margaret Norton)",female,39.0,0,5,382652,29.125,,Q,Mrs.,30-40 years,20-30 pounds
-886,887,False,2,"Montvila, Rev. Juozas",male,27.0,0,0,211536,13.0,,S,Rare.,20-30 years,10-20 pounds
+886,887,False,2,"Montvila, Rev. Juozas",male,27.0,0,0,211536,13.0,,S,Other.,20-30 years,10-20 pounds
 887,888,True,1,"Graham, Miss. Margaret Edith",female,19.0,0,0,112053,30.0,B42,S,Miss.,10-20 years,30-40 pounds
 888,889,False,3,"Johnston, Miss. Catherine Helen ""Carrie""",female,25.0,1,2,W./C. 6607,23.45,,S,Miss.,20-30 years,20-30 pounds
 889,890,True,1,"Behr, Mr. Karl Howell",male,26.0,0,0,111369,30.0,C148,C,Mr.,20-30 years,30-40 pounds
