@@ -46,7 +46,6 @@ class Help(Resource):
         }
 api.add_resource(MakePrediction, '/<int:Sex>/<int:Age>/<int:Pclass>/<int:FamilySize>')
 api.add_resource(Help, '/')
-#api.add_resource(MakePrediction, '/sex=<int:Sex>/Age=<int:age>/pclass=<int:Pclass>/familysize=<int:FamilySize>')
 
 if __name__ == '__main__':
     app.run(debug=True)
