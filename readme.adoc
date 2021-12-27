@@ -1,17 +1,85 @@
-# Case data science
-## How to submit:
+# Titanic survival API
 
-1. Upload your solution to (private) Github Repository or BitBucket or Gitlab if you work for OGD.
-2. Invite software@ogd.nl to it so we can assess you work.
+This API predicts whether or not a passenger on the titanic will survive. A Support Vector Machine has been trained on the passenger dataset to make these predictions. The model takes in 4 features, namely: Sex, Age, Pclass and FamilySize. The model has an accuracy of 0.83.
 
-## Assignment
-Use the Titanic dataset (in the repository) to train a model that predicts if a person will survive the Titanic disaster. Make the model available through an API.
+## How to start the API:
 
-* The repository should include everything required (including instructions) to be run (for example a Python requirements file).
-* Apply analysis and preproccesing to the data.
-* Use the training set to train your model and use the test set to determine the performance.
-* Select an algorithm to train a model and assess its performance.
-* Make the model available through an API.
+1. `pip3 install -r requirements.txt` to install the requirements
+2. `python3 main.py` to start the flask server containing the REST API.
+3. In the terminal it says on which URL the API is running. E.g. 'Running on http://127.0.0.1:5000/'
 
-### Tips
-* Showcase your strengths! Whether it's data analysis, algorithm selection or creating a feature complete API.
+## API GET Requests using curl
+Using the curl command in your terminal you can send GET requests to the API.
+
+Sending a GET Request to the `/`-endpoint gives you some help with formatting for other GET Requests.
+
+`curl http://127.0.0.1:5000/`
+
+JSON Response:
+
+```
+{
+    "url format": "http://127.0.0.1:5000/<int:Sex>/<int:Age>/<int:Pclass>/<int:FamilySize>",
+    "sex format": "0 = female , 1 = male",
+    "age format": "0, 1, 2, 3, ...",
+    "pclass format": "1, 2 or 3",
+    "familysize format": "1, 2, 3, ...."
+}
+```
+If you want to make a prediction whether or nor a passenger will survive, you have to send a GET Request to the `/<int:Sex>/<int:Age>/<int:Pclass>/<int:FamilySize>`-endpoint. For example:
+
+`curl http://127.0.0.1:5000/0/34/2/3`
+
+JSON Response
+
+```
+{
+    "Survived prediction": "True",
+    "Certainty prediction": 0.819506600959324,
+    "Sex": "female",
+    "Age": 34,
+    "Pclass": 2,
+    "FamilySize": 3
+}
+```
+## API GET Requests from browser
+You can make GET Requests directly from the browser. 
+The requests are formatted like this: http://127.0.0.1:5000/<int:Sex>/<int:Age>/<int:Pclass>/<int:FamilySize>
+
+For example yo predict if a 24 year old man, in third class with who is on board with a family size of 5 (4 relatives and himself) will survive, you go to the following url:
+
+http://127.0.0.1:5000/1/24/3/5
+
+```
+{
+    "Survived prediction": "False",
+    "Certainty prediction": 0.9323300250817845,
+    "Sex": "male",
+    "Age": 24,
+    "Pclass": 3,
+    "FamilySize": 5
+}
+```
+## What are the files in this project
+
+`titanic-training-dataset.csv` and `titanic-test-dataset.csv` are datasets containing the raw data.
+
+`titanic-training-dataset-cleaned.csv` and `titanic-test-dataset-cleaned.csv` are the datasets created by `data-cleaner.py`.
+
+`data-cleaner.py` cleans up the datasets and makes new features.
+
+`data-analysis.py` makes some figures to get intuition about our data.
+
+The directory `Data_analyse_plaatjes` contains the figures created by `data-analysis.py`.
+
+`titanic_methods.py` contains some useful functions used by `data-cleaner.py`
+
+`try_out_different_models.py` uses the cleaned datasets to train different machine models and evaluate which one works the best.
+
+`train_svm_model.py` trains the Support Vector Machine model on all of the training data.
+
+`main.py` contains the flask app that runs the API.
+
+`classifier.pkl` contains the trained machine model.
+
+`Walkthrough_the_proces.ipynb` is a Jupyter Notebook that you can read to get insight in the proces. It covers data cleaning, how the best model was selected using cross validation, how the four features were selected using forward feature sequential selection and how the parameters were selected using GridSearchCV.
