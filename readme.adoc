@@ -83,3 +83,20 @@ The directory `Data_analyse_plaatjes` contains the figures created by `data-anal
 `classifier.pkl` contains the trained machine model.
 
 `Walkthrough_the_proces.ipynb` is a Jupyter Notebook that you can read to get insight in the proces. It covers data cleaning, how the best model was selected using cross validation, how the four features were selected using forward feature sequential selection and how the parameters were selected using GridSearchCV.
+
+## The proces of this project
+The proces can be read through using the `Walkthrough_the_proces.ipynb` jupyter notebook. A brief summary follows here.
+
+1) Cleaning all of the data.
+
+2) Getting intuition by plotting figures with the data.
+
+3) Training multiple machine models with Cross Validation to see which one performs best on this dataset.
+
+4) Using forward sequential feature selection to select good features for our model.
+
+5) Using GridSearchCV to find the optimal parameters for the model.
+
+6) Train the model on all of the available training data.
+
+7) Write an API to make GET Requests with the machine model.
