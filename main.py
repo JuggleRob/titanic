@@ -48,4 +48,4 @@ api.add_resource(MakePrediction, '/<int:Sex>/<int:Age>/<int:Pclass>/<int:FamilyS
 api.add_resource(Help, '/')
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=False)
